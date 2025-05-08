@@ -24,7 +24,7 @@ function App() {
             <div className="card" key={index}>
               <h2>Cart ID: {item.id}</h2>
               <p>Total Products: {item.totalProducts}</p>
-              <p>Total Amount: {item.total}</p>
+              <p>Total Amount: test {item.total}</p>
             </div>
           ))}
         </div>
